@@ -1,0 +1,18 @@
+name: OneaShops
+version: '${project.version}'
+main: me.onixneo.oneashops.OneaShops
+api-version: 1.18
+authors: [ OniX ]
+description: Shop plugin with thresholds for items prices variation
+depend:
+  - Vault
+commands:
+  shop:
+    description: Open shop interface
+    usage: "Usage : /<command> [shopname]"
+  shopslist:
+    description: List all available shops
+    usage: "Usage : /<command>"
+    aliases:
+      - shops
+      - shoplist

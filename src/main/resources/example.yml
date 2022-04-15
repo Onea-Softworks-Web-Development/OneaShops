@@ -1,0 +1,25 @@
+shop:
+  name: 'Example Shop'          # Name of the shop
+  formattedname: 'example_shop' # Optional : the name that needs to be typed in command
+  items:
+  - id: 'minecraft:stone'       # In-game Item ID
+    buy:                        # Settings for buying (remove to disable buying completely)
+      quantity: 64              # Base quantity for the item (max stack by default)
+      base: 640                 # Base price for the item (outside threshold)
+      thresholds:               # Thresholds list    /!\ must be ordered /!\    (remove to disable thresholds)
+      - quantity: 128           # Max quantity for this threshold
+        price: 1280             # Price of the item while in threshold
+      - quantity: 128
+        price: 960
+    sell:                       # Settings for selling (same as buying)
+      quantity: 64
+      base: 320
+      thresholds:
+      - quantity: 192
+        price: 640
+      - quantity: 128
+        price: 480
+  - id: 'minecraft:cobblestone'
+    sell:
+      quantity: 64
+      base: 320
