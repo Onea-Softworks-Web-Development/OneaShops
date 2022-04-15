@@ -9,7 +9,7 @@
 - [Installation](#Installation)
 - [Configuration](#Configuration)
 - [Usage](#Usage)
-- [Contact & Support](#Contact-&-Support)
+- [Contact & Support](#Contact-/-Support)
 - [Credits](#Credits)
 
 # Features
@@ -141,7 +141,7 @@ On the right is the item you clicked on and the quantity you are buying / sellin
 Theses screenshots were taken on a buying interface but the same applies to the selling interface :  
 <img width="400px" src="docs/sell_item.png">
 
-# Contact & Support
+# Contact / Support
 Any contact / support for this plugin is provided by Onea on its [Discord](https://discord.gg/sktqeRN5eS).  
 You can also contact OniX, responsible of this project, in his Discord DMs @ OniX#5186.
 
